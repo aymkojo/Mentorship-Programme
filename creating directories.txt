@@ -1,0 +1,49 @@
+cd desktop
+#1 Creating the main Project folder
+mkdir "Project Directory"
+cd "Projectory Directory"
+
+#2 Creating the first 3 Subfolders
+mkdir "folder 1" "folder 2" "folder 3"
+
+#Moving to subfolder 2 to create it's subfolders
+cd "folder 2"
+
+#creating subfolder 2's subfolders
+mkdir "folder 8" "folder 9"
+
+#moving inside folder 8 to create it's subfolder
+cd "folder 8"
+
+#creating folder 10 which is inside subfolder 8
+mkdir "folder 10"
+
+#moving inside folder 10 to create our last folder
+cd "folder 10"
+#creating folder 11
+mkdir "folder 11"
+
+moving back from Sub folder 2 
+to the Main Project directory
+cd..
+
+#moving inside folder 3 now to create it's subfolders
+cd "folder 3"
+
+#creating subfolders 4 and 5
+mkdir "folder 4" "folder 5"
+
+#moving inside subfolder 5 to create it's subfolders 
+cd "folder 5"
+
+#creating folder 6 inside folder 5
+mkdir "folder 6"
+
+#moving inside folder 6 
+cd "folder 6"
+
+#creating folder 7 inside folder 6
+mkdir "folder 7"
+
+THE END
+
